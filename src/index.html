@@ -7,10 +7,11 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
-    <div class="promo">
+    <section class="promo">
       <div class="container">
         <header class="header">
           <a href="#" class="header__logo">
@@ -54,29 +55,69 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <section class="advantages">
-        <div class="container">
-            <h2 class="advantages__header">OUR ADVANTAGES</h2>
-            <div class="advantages__icons">
-                <div class="advantages__icon">
-                    <img src="./icons/advantages/cup.png" alt="cup">
-                    <span>Sharing experience</span>
-                    Our employees are always ready to share their experience, as they themselves run half marathons, swam across the Bosporus, and are preparing for triathlon competitions!
-                </div>
-                <div class="advantages__icon">
-                    <img src="./icons/advantages/heart.png" alt="heart">
-                    <span>We care about health</span>
-                    We work to ensure that your sports activities benefit your health and bring joy to you and your loved ones!
-                </div>
-                <div class="advantages__icon">
-                    <img src="./icons/advantages/shoe.png" alt="shoe">
-                    <span>Learn to run</span>
-                    Let us help you learn the right running technique! We are friends with the largest running school - I LOVE RUNNING.
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="title">OUR ADVANTAGES</h2>
+        <div class="advantages__icons">
+          <div class="advantages__icon">
+            <img src="./icons/advantages/cup.png" alt="cup" />
+            <span>Sharing experience</span>
+            Our employees are always ready to share their experience, as they
+            themselves run half marathons, swam across the Bosporus, and are
+            preparing for triathlon competitions!
+          </div>
+          <div class="advantages__icon">
+            <img src="./icons/advantages/heart.png" alt="heart" />
+            <span>We care about health</span>
+            We work to ensure that your sports activities benefit your health
+            and bring joy to you and your loved ones!
+          </div>
+          <div class="advantages__icon">
+            <img src="./icons/advantages/shoe.png" alt="shoe" />
+            <span>Learn to run</span>
+            Let us help you learn the right running technique! We are friends
+            with the largest running school - <a href="#">I LOVE RUNNING.</a>
+          </div>
         </div>
+      </div>
     </section>
+
+    <section class="consultation">
+      <div class="container">
+        <h2 class="title title_left">
+          Get a free consultation <br />
+          on choosing a heart rate monitor
+        </h2>
+        <div class="consultation__descr">
+          Just fill out the application form <br />
+          and we will call you back within 10 minutes
+        </div>
+        <form class="feed-form" action="#">
+          <input name="name" required type="text" placeholder="Your name" />
+          <input name="phone" required type="number" placeholder="Your phone" />
+          <input name="email" required type="email" placeholder="Your e-mail" />
+          <button type="submit" class="button button_submit">
+            order a consultation
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="carousel">
+      <div class="container">
+        <div class="carousel__inner">
+          <div><img src="./img/slide_1.jpg" alt="slide"></div>
+          <div><img src="./img/slide_2.jpg" alt="slide"></div>
+          <div><img src="./img/slide_3.jpg" alt="slide"></div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
