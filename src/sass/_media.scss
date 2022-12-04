@@ -1,3 +1,14 @@
+@media (max-width: 1080px) {
+    .carousel {
+        button.next {
+            right: 0;
+        }
+        button.prev {
+            left: 0;
+        }
+    }
+}
+
 @media (max-width: 992px) {
     .container {
         padding: 0 10px;
@@ -8,6 +19,17 @@
     .promo__subheader {
         font-size: 20px;
     }
+    
+    .carousel {
+        button.next {
+            top: 100%;
+        }
+        button.prev {
+            top: 100%;
+        }
+    }
+
+   
 }
 
 @media (max-width: 750px) {
@@ -34,12 +56,14 @@
             font-size: 30px;
         }
     }
+
     .button {
         margin-top: 10px;
         width: 300px;
         height: 50px;
         font-size: 16px;
     }
+
     .promo {
         &__wrapper {
             align-items: center;
@@ -53,7 +77,12 @@
             text-align: center;
             font-size: 25px;
         }
+        &__icons {
+            width: 100%;
+            justify-content: center;
+        }
     }
+
     .advantages {
         &__icons {
             flex-direction: column;
@@ -68,7 +97,37 @@
             margin-bottom: 20px;
         }
     }
+
     .title {
         font-size: 35px;
+    }
+    
+    .carousel .tns-item img {
+        width: 100%;
+    }
+
+    .button {
+        &_mini {
+            width: 135px;
+            height: 44px;
+        }
+    }
+
+    .catalog {
+        &__tab {
+            font-size: 12px;
+        }
+    }
+    .reviews {
+        &__item {
+            display: block;
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &__wrapper {
+            margin-left: 0;
+        }
     }
 }

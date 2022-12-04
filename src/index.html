@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pulse</title>
+    <link rel="icon" type="image/x-icon" href="./icons/favicon.ico" />
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/slick.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
@@ -108,16 +112,512 @@
     <section class="carousel">
       <div class="container">
         <div class="carousel__inner">
-          <div><img src="./img/slide_1.jpg" alt="slide"></div>
-          <div><img src="./img/slide_2.jpg" alt="slide"></div>
-          <div><img src="./img/slide_3.jpg" alt="slide"></div>
+          <div><img src="./img/slide_1.jpg" alt="slide" /></div>
+          <div><img src="./img/slide_2.jpg" alt="slide" /></div>
+          <div><img src="./img/slide_3.jpg" alt="slide" /></div>
+        </div>
+        <button type="button" class="prev">
+          <img src="../icons/left.svg" />
+        </button>
+        <button type="button" class="next">
+          <img src="../icons/right.svg" />
+        </button>
+      </div>
+    </section>
+
+    <section class="catalog">
+      <div class="container">
+        <h2 class="title">Catalog of heart rate monitors</h2>
+        <ul class="catalog__tabs">
+          <li class="catalog__tab catalog__tab_active">
+            <div>For fitness</div>
+          </li>
+          <li class="catalog__tab"><div>for running</div></li>
+          <li class="catalog__tab"><div>for triathlon</div></li>
+        </ul>
+        <!-- Tab 1 -->
+        <div class="catalog__content catalog__content_active">
+          <!-- el 1 -->
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+              <div class="catalog-item__content">
+                <img
+                  src="./img/photo.png"
+                  alt="hrm"
+                  class="catalog-item__img"
+                />
+                <div class="catalog-item__subtitle">
+                  Polar FT1 heart rate monitor
+                </div>
+                <div class="catalog-item__descr">
+                  For the first steps in heart rate training
+                </div>
+                <a href="#" class="catalog-item__link">LEARN MORE</a>
+              </div>
+              <ul class="catalog-item__list catalog-item__list_active">
+                <li>
+                  You will hear a sound notification about the desired heart
+                  rate during training;
+                </li>
+                <li>
+                  You will see an informative graphical indicator of target
+                  training heart rate zones;
+                </li>
+                <li>
+                  You will also see information about the calorie consumption
+                  per workout;
+                </li>
+                <li>You can view data for 10 workouts.</li>
+                <a href="#" class="catalog-item__back">BACK TO MAIN</a>
+              </ul>
+            </div>
+
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <div class="catalog-item__old-price">150$</div>
+                <div class="catalog-item__price">129$</div>
+              </div>
+              <button class="button button_mini">BUY</button>
+            </div>
+          </div>
+          <!-- el 2 -->
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+              <div class="catalog-item__content catalog-item__content_active">
+                <img
+                  src="./img/photo.png"
+                  alt="hrm"
+                  class="catalog-item__img"
+                />
+                <div class="catalog-item__subtitle">
+                  Polar FT1 heart rate monitor
+                </div>
+                <div class="catalog-item__descr">
+                  For the first steps in heart rate training
+                </div>
+                <a href="#" class="catalog-item__link">LEARN MORE</a>
+              </div>
+              <ul class="catalog-item__list">
+                <li>
+                  You will hear a sound notification about the desired heart
+                  rate during training;
+                </li>
+                <li>
+                  You will see an informative graphical indicator of target
+                  training heart rate zones;
+                </li>
+                <li>
+                  You will also see information about the calorie consumption
+                  per workout;
+                </li>
+                <li>You can view data for 10 workouts.</li>
+                <a href="#" class="catalog-item__back">BACK TO MAIN</a>
+              </ul>
+            </div>
+
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <div class="catalog-item__old-price">150$</div>
+                <div class="catalog-item__price">129$</div>
+              </div>
+              <button class="button button_mini">BUY</button>
+            </div>
+          </div>
+          <!-- el 3 -->
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+              <div class="catalog-item__content">
+                <img
+                  src="./img/photo.png"
+                  alt="hrm"
+                  class="catalog-item__img"
+                />
+                <div class="catalog-item__subtitle">
+                  Polar FT1 heart rate monitor
+                </div>
+                <div class="catalog-item__descr">
+                  For the first steps in heart rate training
+                </div>
+                <a href="#" class="catalog-item__link">LEARN MORE</a>
+              </div>
+              <ul class="catalog-item__list catalog-item__list_active">
+                <li>
+                  You will hear a sound notification about the desired heart
+                  rate during training;
+                </li>
+                <li>
+                  You will see an informative graphical indicator of target
+                  training heart rate zones;
+                </li>
+                <li>
+                  You will also see information about the calorie consumption
+                  per workout;
+                </li>
+                <li>You can view data for 10 workouts.</li>
+                <a href="#" class="catalog-item__back">BACK TO MAIN</a>
+              </ul>
+            </div>
+
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <div class="catalog-item__old-price">150$</div>
+                <div class="catalog-item__price">129$</div>
+              </div>
+              <button class="button button_mini">BUY</button>
+            </div>
+          </div>
+          <!-- el 4 -->
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+              <div class="catalog-item__content catalog-item__content_active">
+                <img
+                  src="./img/photo.png"
+                  alt="hrm"
+                  class="catalog-item__img"
+                />
+                <div class="catalog-item__subtitle">
+                  Polar FT1 heart rate monitor
+                </div>
+                <div class="catalog-item__descr">
+                  For the first steps in heart rate training
+                </div>
+                <a href="#" class="catalog-item__link">LEARN MORE</a>
+              </div>
+              <ul class="catalog-item__list">
+                <li>
+                  You will hear a sound notification about the desired heart
+                  rate during training;
+                </li>
+                <li>
+                  You will see an informative graphical indicator of target
+                  training heart rate zones;
+                </li>
+                <li>
+                  You will also see information about the calorie consumption
+                  per workout;
+                </li>
+                <li>You can view data for 10 workouts.</li>
+                <a href="#" class="catalog-item__back">BACK TO MAIN</a>
+              </ul>
+            </div>
+
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <div class="catalog-item__old-price">150$</div>
+                <div class="catalog-item__price">129$</div>
+              </div>
+              <button class="button button_mini">BUY</button>
+            </div>
+          </div>
+          <!-- el 5 -->
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+              <div class="catalog-item__content catalog-item__content_active">
+                <img
+                  src="./img/photo.png"
+                  alt="hrm"
+                  class="catalog-item__img"
+                />
+                <div class="catalog-item__subtitle">
+                  Polar FT1 heart rate monitor
+                </div>
+                <div class="catalog-item__descr">
+                  For the first steps in heart rate training
+                </div>
+                <a href="#" class="catalog-item__link">LEARN MORE</a>
+              </div>
+              <ul class="catalog-item__list">
+                <li>
+                  You will hear a sound notification about the desired heart
+                  rate during training;
+                </li>
+                <li>
+                  You will see an informative graphical indicator of target
+                  training heart rate zones;
+                </li>
+                <li>
+                  You will also see information about the calorie consumption
+                  per workout;
+                </li>
+                <li>You can view data for 10 workouts.</li>
+                <a href="#" class="catalog-item__back">BACK TO MAIN</a>
+              </ul>
+            </div>
+
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <div class="catalog-item__old-price">150$</div>
+                <div class="catalog-item__price">129$</div>
+              </div>
+              <button class="button button_mini">BUY</button>
+            </div>
+          </div>
+          <!-- el 6 -->
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+              <div class="catalog-item__content">
+                <img
+                  src="./img/photo.png"
+                  alt="hrm"
+                  class="catalog-item__img"
+                />
+                <div class="catalog-item__subtitle">
+                  Polar FT1 heart rate monitor
+                </div>
+                <div class="catalog-item__descr">
+                  For the first steps in heart rate training
+                </div>
+                <a href="#" class="catalog-item__link">LEARN MORE</a>
+              </div>
+              <ul class="catalog-item__list catalog-item__list_active">
+                <li>
+                  You will hear a sound notification about the desired heart
+                  rate during training;
+                </li>
+                <li>
+                  You will see an informative graphical indicator of target
+                  training heart rate zones;
+                </li>
+                <li>
+                  You will also see information about the calorie consumption
+                  per workout;
+                </li>
+                <li>You can view data for 10 workouts.</li>
+                <a href="#" class="catalog-item__back">BACK TO MAIN</a>
+              </ul>
+            </div>
+
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <div class="catalog-item__old-price">150$</div>
+                <div class="catalog-item__price">129$</div>
+              </div>
+              <button class="button button_mini">BUY</button>
+            </div>
+          </div>
+        </div>
+        <!-- Tab 2 -->
+        <div class="catalog__content">
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+              <div class="catalog-item__content">
+                <img
+                  src="./img/photo.png"
+                  alt="hrm"
+                  class="catalog-item__img"
+                />
+                <div class="catalog-item__subtitle">
+                  Polar FT1 heart rate monitor
+                </div>
+                <div class="catalog-item__descr">
+                  For the first steps in heart rate training
+                </div>
+                <a href="#" class="catalog-item__link">LEARN MORE</a>
+              </div>
+              <ul class="catalog-item__list catalog-item__list_active">
+                <li>
+                  You will hear a sound notification about the desired heart
+                  rate during training;
+                </li>
+                <li>
+                  You will see an informative graphical indicator of target
+                  training heart rate zones;
+                </li>
+                <li>
+                  You will also see information about the calorie consumption
+                  per workout;
+                </li>
+                <li>You can view data for 10 workouts.</li>
+                <a href="#" class="catalog-item__back">BACK TO MAIN</a>
+              </ul>
+            </div>
+
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <div class="catalog-item__old-price">150$</div>
+                <div class="catalog-item__price">129$</div>
+              </div>
+              <button class="button button_mini">BUY</button>
+            </div>
+          </div>
+        </div>
+        <!-- Tab 3 -->
+        <div class="catalog__content">
+          <!-- el 1 -->
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+              <div class="catalog-item__content">
+                <img
+                  src="./img/photo.png"
+                  alt="hrm"
+                  class="catalog-item__img"
+                />
+                <div class="catalog-item__subtitle">
+                  Polar FT1 heart rate monitor
+                </div>
+                <div class="catalog-item__descr">
+                  For the first steps in heart rate training
+                </div>
+                <a href="#" class="catalog-item__link">LEARN MORE</a>
+              </div>
+              <ul class="catalog-item__list catalog-item__list_active">
+                <li>
+                  You will hear a sound notification about the desired heart
+                  rate during training;
+                </li>
+                <li>
+                  You will see an informative graphical indicator of target
+                  training heart rate zones;
+                </li>
+                <li>
+                  You will also see information about the calorie consumption
+                  per workout;
+                </li>
+                <li>You can view data for 10 workouts.</li>
+                <a href="#" class="catalog-item__back">BACK TO MAIN</a>
+              </ul>
+            </div>
+
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <div class="catalog-item__old-price">150$</div>
+                <div class="catalog-item__price">129$</div>
+              </div>
+              <button class="button button_mini">BUY</button>
+            </div>
+          </div>
+          <!-- el 2 -->
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+              <div class="catalog-item__content">
+                <img
+                  src="./img/photo.png"
+                  alt="hrm"
+                  class="catalog-item__img"
+                />
+                <div class="catalog-item__subtitle">
+                  Polar FT1 heart rate monitor
+                </div>
+                <div class="catalog-item__descr">
+                  For the first steps in heart rate training
+                </div>
+                <a href="#" class="catalog-item__link">LEARN MORE</a>
+              </div>
+              <ul class="catalog-item__list catalog-item__list_active">
+                <li>
+                  You will hear a sound notification about the desired heart
+                  rate during training;
+                </li>
+                <li>
+                  You will see an informative graphical indicator of target
+                  training heart rate zones;
+                </li>
+                <li>
+                  You will also see information about the calorie consumption
+                  per workout;
+                </li>
+                <li>You can view data for 10 workouts.</li>
+                <a href="#" class="catalog-item__back">BACK TO MAIN</a>
+              </ul>
+            </div>
+
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <div class="catalog-item__old-price">150$</div>
+                <div class="catalog-item__price">129$</div>
+              </div>
+              <button class="button button_mini">BUY</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/slick.min.js"></script>
+    <section class="reviews">
+      <div class="container">
+        <div class="title">customer reviews</div>
+        <!-- rev 1 -->
+        <div class="reviews__item">
+          <img src="./img/photo_1.png" alt="photo_1" />
+          <div class="reviews__wrapper">
+            <div class="reviews__name">Sara Conor</div>
+            <div class="reviews__achi">2 half marathons</div>
+            <div class="reviews__descr">
+              I didn’t know what to buy for myself - I turned to the guys from
+              RunSmart - they picked up a heart rate monitor that suited my
+              goals and financial capabilities. After some time, I decided to
+              update the gadget - without hesitation, I turned to the same
+              place.
+              <br /> <br>
+              New goals - new gadget!
+              <br /> <br>
+              Thanks RunSmart!
+            </div>
+          </div>
+        </div>
+        <!-- rev 2 -->
+        <div class="reviews__item">
+          <img src="./img/photo_2.png" alt="photo_2" />
+          <div class="reviews__wrapper">
+            <div class="reviews__name">John Dou</div>
+            <div class="reviews__achi">1 half marathons</div>
+            <div class="reviews__descr">
+              Cool thing - a heart rate monitor. I usually run without them.
+              Turns out he only made it worse. <br> I bought a heart rate monitor, I
+              also received a workout as a gift. They had the first training
+              together with me, taught me how to use a new gadget. They also
+              explained the basics of anatomy, made a training plan for the
+              month ahead.
+			 <br><br> 
+			  With them, I prepared for my first half marathon!
+              Thanks!!!
+            </div>
+          </div>
+        </div>
+        <!-- rev3 -->
+        <div class="reviews__item">
+          <img src="./img/photo_3.png" alt="photo_3" />
+          <div class="reviews__wrapper">
+            <div class="reviews__name">Lisa Simpson</div>
+            <div class="reviews__achi">2 half marathons</div>
+            <div class="reviews__descr">
+              I could not start running for a long time, because. Before that, I
+              started several times, but it became hard and I quit. I heard
+              about RunSmart and running with heart rate control from friends
+              and decided to try it. 
+			 <br><br> 
+			  I called, the guys asked about my goals and
+              picked up a very interesting option at a discount! Now I run and
+              enjoy running! She has already run 2 half marathons and several
+              shorter races and does not intend to stop! 
+			 <br><br> 
+			  Thanks!!!
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
