@@ -18,6 +18,12 @@
     }
     &__icon {
         max-width: 270px;
+        &_animated {
+            animation: heartbeat 2s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
 }
 .title {

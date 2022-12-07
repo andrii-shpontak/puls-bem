@@ -119,6 +119,7 @@
         }
     }
     .reviews {
+        margin-bottom: 320px;
         &__item {
             display: block;
             img {
@@ -128,6 +129,19 @@
         }
         &__wrapper {
             margin-left: 0;
+        }
+    }
+    .footer {
+        &__info {
+            top: -270px;
+            width: 100%;
+        }
+    }
+    .modal {
+        max-width: 380px;
+        &__close {
+            right: 40px;
+            top: -30px;
         }
     }
 }
