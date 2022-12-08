@@ -8,5 +8,5 @@ Includes BEM methodology.
 
 To run:
 download,
-download dependencies
+download dependencies,
 in the terminal type gulp
